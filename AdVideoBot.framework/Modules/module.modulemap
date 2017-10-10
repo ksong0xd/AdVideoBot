@@ -1,0 +1,11 @@
+framework module AdVideoBot {
+  umbrella header "AdVideoBot.h"
+
+  export *
+  module * { export * }
+}
+
+module AdVideoBot.Swift {
+    header "AdVideoBot-Swift.h"
+    requires objc
+}
